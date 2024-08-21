@@ -1,0 +1,27 @@
+# 12-quest
+#include <stdio.h>
+
+int main() {
+    int N;
+    int soma;
+
+
+    printf("Digite o valor de N: ");
+    scanf("%d", &N);
+
+
+    if (N < 1) {
+        printf("Por favor, insira um número natural maior ou igual a 1.\n");
+        return 1; 
+    }
+
+
+    soma = N * (N + 1) / 2;
+
+
+    printf("A soma dos primeiros %d números naturais é %d\n", N, soma);
+
+    return 0;
+}
+
+
